@@ -1,0 +1,282 @@
+﻿[
+    {
+        "test":  "A SHA256(alpha_evo1+2.2.3) k128",
+        "mode":  "ECB",
+        "keylen":  128,
+        "b3":  "a6",
+        "tag":  "-",
+        "head":  "69314ca60f6a43d57a5842c0e49da422bc89c6c0305ca122e6b5a5c5b3e9afb9",
+        "cbc_tag":  "-",
+        "cbc_head":  "69314ca60f6a43d57a5842c0e49da422079a4a5a38003717a643c4522f7ab038"
+    },
+    {
+        "test":  "A SHA256(alpha_evo1+2.2.3) k256",
+        "mode":  "ECB",
+        "keylen":  256,
+        "b3":  "6a",
+        "tag":  "-",
+        "head":  "ee94b66aa8475d2e9e727784f5f0a81c44747b8e84c84f870d7f66ae2f2a669a",
+        "cbc_tag":  "-",
+        "cbc_head":  "ee94b66aa8475d2e9e727784f5f0a81cff67f7148c94d9b24d890739b3b9791b"
+    },
+    {
+        "test":  "C HMAC(uuid 3463535048588791808,payload) k128",
+        "mode":  "ECB",
+        "keylen":  128,
+        "b3":  "3b",
+        "tag":  "-",
+        "head":  "f607723bb86ca23e0533119407f436a921befd0c831ede30e3b5fe8a3d1c4b13",
+        "cbc_tag":  "-",
+        "cbc_head":  "f607723bb86ca23e0533119407f436a99aad71968b424805a3439f1da18f5492"
+    },
+    {
+        "test":  "C HMAC(uuid 3463535048588791808,payload) k256",
+        "mode":  "ECB",
+        "keylen":  256,
+        "b3":  "08",
+        "tag":  "-",
+        "head":  "120e60089df66eb44b3e16701b40a4e8fc7f23fd037223705d607cf19a49881b",
+        "cbc_tag":  "-",
+        "cbc_head":  "120e60089df66eb44b3e16701b40a4e8476caf670b2eb5451d961d6606da979a"
+    },
+    {
+        "test":  "D board-uuid 3463535048588791808 k128",
+        "mode":  "ECB",
+        "keylen":  128,
+        "b3":  "8d",
+        "tag":  "-",
+        "head":  "ff9f9b8dc6f34ba2d0646e737d7fb060bab42ed42fb31be2e1b0ebeb2794c625",
+        "cbc_tag":  "-",
+        "cbc_head":  "ff9f9b8dc6f34ba2d0646e737d7fb06001a7a24e27ef8dd7a1468a7cbb07d9a4"
+    },
+    {
+        "test":  "C HMAC(uuid 3463535371365650432,payload) k128",
+        "mode":  "ECB",
+        "keylen":  128,
+        "b3":  "75",
+        "tag":  "-",
+        "head":  "4bd7a5750814e2abfe5e229c85d3a82f807476c9d48808b10fd4a41b348ef004",
+        "cbc_tag":  "-",
+        "cbc_head":  "4bd7a5750814e2abfe5e229c85d3a82f3b67fa53dcd49e844f22c58ca81def85"
+    },
+    {
+        "test":  "C HMAC(uuid 3463535371365650432,payload) k256",
+        "mode":  "ECB",
+        "keylen":  256,
+        "b3":  "a2",
+        "tag":  "-",
+        "head":  "76f4eea2e3287d01e640e0f4cb330a58a1c66d0008fd716f551b56e46b1f3837",
+        "cbc_tag":  "-",
+        "cbc_head":  "76f4eea2e3287d01e640e0f4cb330a581ad5e19a00a1e75a15ed3773f78c27b6"
+    },
+    {
+        "test":  "D board-uuid 3463535371365650432 k128",
+        "mode":  "ECB",
+        "keylen":  128,
+        "b3":  "a6",
+        "tag":  "-",
+        "head":  "0d1a3ba68a2c352e410f3bc1b6c16280ada11ef34d82f45fd97432a866343994",
+        "cbc_tag":  "-",
+        "cbc_head":  "0d1a3ba68a2c352e410f3bc1b6c1628016b2926945de626a9982533ffaa72615"
+    },
+    {
+        "test":  "C HMAC(uuid 3243493669008838656,payload) k128",
+        "mode":  "ECB",
+        "keylen":  128,
+        "b3":  "29",
+        "tag":  "-",
+        "head":  "c6690929fa83a4d7b6bfa46b9f56c78ef491757ed602862b8a4759384fe654ea",
+        "cbc_tag":  "-",
+        "cbc_head":  "c6690929fa83a4d7b6bfa46b9f56c78e4f82f9e4de5e101ecab138afd3754b6b"
+    },
+    {
+        "test":  "C HMAC(uuid 3243493669008838656,payload) k256",
+        "mode":  "ECB",
+        "keylen":  256,
+        "b3":  "7b",
+        "tag":  "-",
+        "head":  "09cc547b2cdcb79ee944c05d3ca3c6e916d5ac2a2d4acb3f11dacb1d83ab29f3",
+        "cbc_tag":  "-",
+        "cbc_head":  "09cc547b2cdcb79ee944c05d3ca3c6e9adc620b025165d0a512caa8a1f383672"
+    },
+    {
+        "test":  "D board-uuid 3243493669008838656 k128",
+        "mode":  "ECB",
+        "keylen":  128,
+        "b3":  "55",
+        "tag":  "-",
+        "head":  "858bd055eabbc85a5bd51e38f12ef297c03dbfb0988e2c02b54252987a315f92",
+        "cbc_tag":  "-",
+        "cbc_head":  "858bd055eabbc85a5bd51e38f12ef2977b2e332a90d2ba37f5b4330fe6a24013"
+    },
+    {
+        "test":  "C HMAC(uuid 3243498132926894080,payload) k128",
+        "mode":  "ECB",
+        "keylen":  128,
+        "b3":  "20",
+        "tag":  "-",
+        "head":  "a5186620767401158c08f4bdb5a4e9afa48f8b479f9c817ac02258a46d7720a3",
+        "cbc_tag":  "-",
+        "cbc_head":  "a5186620767401158c08f4bdb5a4e9af1f9c07dd97c0174f80d43933f1e43f22"
+    },
+    {
+        "test":  "C HMAC(uuid 3243498132926894080,payload) k256",
+        "mode":  "ECB",
+        "keylen":  256,
+        "b3":  "98",
+        "tag":  "-",
+        "head":  "a2ef9b9894eb93888b9fff503590c9d13aa180a63589ef6f4ffba2152b82fd4e",
+        "cbc_tag":  "-",
+        "cbc_head":  "a2ef9b9894eb93888b9fff503590c9d181b20c3c3dd5795a0f0dc382b711e2cf"
+    },
+    {
+        "test":  "D board-uuid 3243498132926894080 k128",
+        "mode":  "ECB",
+        "keylen":  128,
+        "b3":  "c9",
+        "tag":  "-",
+        "head":  "38a07ac96422aa61ccf6d0733c4c812db31ebf760d4a3998011145839fc04827",
+        "cbc_tag":  "-",
+        "cbc_head":  "38a07ac96422aa61ccf6d0733c4c812d080d33ec0516afad41e72414035357a6"
+    },
+    {
+        "test":  "E SHA256(alpha_evo1+00000000) k128",
+        "mode":  "ECB",
+        "keylen":  128,
+        "b3":  "f1",
+        "tag":  "-",
+        "head":  "f43af7f1513397b4c17a706c18455d14bc3b9513cb449bebf95390aeafafa873",
+        "cbc_tag":  "-",
+        "cbc_head":  "f43af7f1513397b4c17a706c18455d1407281989c3180ddeb9a5f139333cb7f2"
+    },
+    {
+        "test":  "E SHA256(alpha_evo1+00000000) k256",
+        "mode":  "ECB",
+        "keylen":  256,
+        "b3":  "8d",
+        "tag":  "-",
+        "head":  "9ba2288d5a4c76752192cfe81733440ad3214f9c4cb0a27048071d137ab8b81d",
+        "cbc_tag":  "-",
+        "cbc_head":  "9ba2288d5a4c76752192cfe81733440a6832c30644ec344508f17c84e62ba79c"
+    },
+    {
+        "test":  "F MD5(SFU header 0x00..0x3F)",
+        "mode":  "ECB",
+        "keylen":  128,
+        "b3":  "ba",
+        "tag":  "-",
+        "head":  "d21a66bac5ab22b3b1cd3ebd27a24d66ee37467ad743294fb55f8838b71927ad",
+        "cbc_tag":  "-",
+        "cbc_head":  "d21a66bac5ab22b3b1cd3ebd27a24d665524cae0df1fbf7af5a9e9af2b8a382c"
+    },
+    {
+        "test":  "G SHA256(payload[0:32]) k128",
+        "mode":  "ECB",
+        "keylen":  128,
+        "b3":  "46",
+        "tag":  "-",
+        "head":  "67062a46bb62dd4e4f261a3fbbd8c76a3441531326615e83d1f7e73b643cdea7",
+        "cbc_tag":  "-",
+        "cbc_head":  "67062a46bb62dd4e4f261a3fbbd8c76a8f52df892e3dc8b6910186acf8afc126"
+    },
+    {
+        "test":  "G SHA256(payload[0:32]) k256",
+        "mode":  "ECB",
+        "keylen":  256,
+        "b3":  "4c",
+        "tag":  "-",
+        "head":  "8dc3bd4cc91e1b8662bfac83b83f17d7d2f7706d8ada7e053e1fb4d15c53eea0",
+        "cbc_tag":  "-",
+        "cbc_head":  "8dc3bd4cc91e1b8662bfac83b83f17d769e4fcf78286e8307ee9d546c0c0f121"
+    },
+    {
+        "test":  "H nested HMAC(alpha_evo1,simagic) k128",
+        "mode":  "ECB",
+        "keylen":  128,
+        "b3":  "7a",
+        "tag":  "-",
+        "head":  "9b83ff7a4d87926ac36d96b7de71920f57b404a0b28f25fc97747521a28fb296",
+        "cbc_tag":  "-",
+        "cbc_head":  "9b83ff7a4d87926ac36d96b7de71920feca7883abad3b3c9d78214b63e1cad17"
+    },
+    {
+        "test":  "H nested HMAC(alpha_evo1,simagic) k256",
+        "mode":  "ECB",
+        "keylen":  256,
+        "b3":  "4a",
+        "tag":  "-",
+        "head":  "6608e44a77d1bbe1d7376b54138c6441c34bbc47a235b3bceefa2bc9f32b17c9",
+        "cbc_tag":  "-",
+        "cbc_head":  "6608e44a77d1bbe1d7376b54138c6441785830ddaa692589ae0c4a5e6fb80848"
+    },
+    {
+        "test":  "I SHA256(header 0x10..0x2F raw) k128",
+        "mode":  "ECB",
+        "keylen":  128,
+        "b3":  "82",
+        "tag":  "-",
+        "head":  "c55f0082207b4b4ff5ecc9f0a5b131df65d64404ce92d436119649d7513322b2",
+        "cbc_tag":  "-",
+        "cbc_head":  "c55f0082207b4b4ff5ecc9f0a5b131dfdec5c89ec6ce420351602840cda03d33"
+    },
+    {
+        "test":  "I SHA256(header 0x10..0x2F raw) k256",
+        "mode":  "ECB",
+        "keylen":  256,
+        "b3":  "38",
+        "tag":  "-",
+        "head":  "17d7f53850fa7eb34522320c96cd4d45bd45a2e733b2f9a30832a59e37bfe795",
+        "cbc_tag":  "-",
+        "cbc_head":  "17d7f53850fa7eb34522320c96cd4d4506562e7d3bee6f9648c4c409ab2cf814"
+    },
+    {
+        "test":  "X BUI key, IV=hashBlock[0:16]",
+        "mode":  "ECB",
+        "keylen":  128,
+        "b3":  "9a",
+        "tag":  "-",
+        "head":  "282f509a49d1406b12074e602af3ae879634e3ff8c4be1d6cc6b3474b01c2e66",
+        "cbc_tag":  "-",
+        "cbc_head":  "c969f3ea2018b94d8532f9f73f7fb5192d276f65841777e38c9d55e32c8f31e7"
+    },
+    {
+        "test":  "X BUI key, IV=header 0x30..0x3F",
+        "mode":  "ECB",
+        "keylen":  128,
+        "b3":  "9a",
+        "tag":  "-",
+        "head":  "282f509a49d1406b12074e602af3ae879634e3ff8c4be1d6cc6b3474b01c2e66",
+        "cbc_tag":  "-",
+        "cbc_head":  "a8c8529a49d1486a120746612af6deb12d276f65841777e38c9d55e32c8f31e7"
+    },
+    {
+        "test":  "X BUI key, IV=hashBlock[176:16]",
+        "mode":  "ECB",
+        "keylen":  128,
+        "b3":  "9a",
+        "tag":  "-",
+        "head":  "282f509a49d1406b12074e602af3ae879634e3ff8c4be1d6cc6b3474b01c2e66",
+        "cbc_tag":  "-",
+        "cbc_head":  "148ff53abf56f699e0f2a67c2a3e6be02d276f65841777e38c9d55e32c8f31e7"
+    },
+    {
+        "test":  "X BUI key x2 as AES-256",
+        "mode":  "ECB",
+        "keylen":  256,
+        "b3":  "85",
+        "tag":  "-",
+        "head":  "5c845a8568162e6a199e671df348007694cf4ec930f455d94fc87aa43a7fb9d3",
+        "cbc_tag":  "-",
+        "cbc_head":  "5c845a8568162e6a199e671df34800762fdcc25338a8c3ec0f3e1b33a6eca652"
+    },
+    {
+        "test":  "X BUI key, IV=cipher[0:16]",
+        "mode":  "ECB",
+        "keylen":  128,
+        "b3":  "9a",
+        "tag":  "-",
+        "head":  "282f509a49d1406b12074e602af3ae879634e3ff8c4be1d6cc6b3474b01c2e66",
+        "cbc_tag":  "-",
+        "cbc_head":  "933cdc00418dd65e52f12ff7b660b1062d276f65841777e38c9d55e32c8f31e7"
+    }
+]
